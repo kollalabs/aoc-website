@@ -36,7 +36,7 @@
     "lint:css": "stylelint **/*.html **/*.css",
     "lint:js": "eslint .",
     "lint:md": "remark .",
-    "serve": "browser-sync start --server ./source --port 8080 --watch ./source --open --no-online"
+    "serve": "browser-sync start --server ./docs --port 8080 --watch ./docs --open --no-online"
   },
   "resolutions": {}
 }
